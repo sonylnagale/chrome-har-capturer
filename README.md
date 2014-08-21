@@ -18,6 +18,10 @@ Start Chrome with options:
 For example:
 
     google-chrome --remote-debugging-port=9222 --enable-benchmarking --enable-net-benchmarking
+    
+  OS X:
+  
+    /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --enable-benchmarking --enable-net-benchmarking
 
 ### Use the bundled utility
 
@@ -138,6 +142,10 @@ Debugging Protocol][3].
 
 Emitted when `http://host:port/json` can't be reached or if there are unexpected
 behaviors with Chrome.
+
+### Hold open for n seconds
+
+See https://github.com/sonylnagale/chrome-har-capturer/blob/master/lib/Client.js#L40
 
 Resources
 ---------
